@@ -1,0 +1,22 @@
+{
+  "name": "search-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --no-stdin",
+    "build": "rimraf ./build && tsc",
+    "start": "yarn build && nodemon --no-stdin build/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.0.0",
+    "@types/node": "^18.7.15",
+    "jest": "^28.0.0",
+    "nodemon": "^2.0.19",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
